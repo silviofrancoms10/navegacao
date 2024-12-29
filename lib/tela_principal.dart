@@ -22,9 +22,7 @@ class _TelaPrincipalState extends State<TelaPrincipal> {
           children: [
             ElevatedButton(
               onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => TelaSecundaria()));
-              
+                Navigator.pushNamed(context, '/secundaria');
               },
               child: Text("Prox tela"),
             ),
